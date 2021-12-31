@@ -6,16 +6,23 @@ HotKeys that you can use in this app:
 keyboard------------------------------
 
 select data input cell :          num1
+
 select data cell :                num2
+
 select data output cell :         num3
+
 select wire tool :                num4
+
 select remove each wire tool :    num5
+
 remove all wires :                num6
+
 remove all cells :                num7
 
 mouse---------------------------------
 
 placing/turning on cells/wires :  Lmb
+
 removing cells/wires :            Rmb
 
 *notes*-------------------------------
