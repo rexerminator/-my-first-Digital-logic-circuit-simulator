@@ -1,6 +1,6 @@
 # Digital-logic-circuit-simulator
 
-#NOT-COMPLETE-YET
+NOT-COMPLETE-YET
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 HotKeys that you can use in this app:
