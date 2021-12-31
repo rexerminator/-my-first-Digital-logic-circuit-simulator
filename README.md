@@ -4,7 +4,7 @@ NOT-COMPLETE-YET
 
 HotKeys that you can use in this app:
 
-keyboard------------------------------
+*keyboard*------------------------------
 
 select data input cell :          num1
 
@@ -20,13 +20,13 @@ remove all wires :                num6
 
 remove all cells :                num7
 
-mouse---------------------------------
+*mouse*---------------------------------
 
 placing/turning on cells/wires :  Lmb
 
 removing cells/wires :            Rmb
 
-*notes*-------------------------------
+*notes*---------------------------------
 
 -you can't place multiple cells on each other.
 
@@ -44,15 +44,15 @@ removing cells/wires :            Rmb
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
----entry 31 December 2021---
+---*entry 31 December 2021*---
 
-21:03
+*21:03*
 alright ... I've changed pretty much every crucial thing, and now the code is a little bit more OOP like. there's still some bugs and crashes happening here and there, and you can still make a loop of cells wired to each other and they will stay turned on, but it's much better than what it was before. oh and also it's not grid based anymore. you can now put cells anywhere on the window as long as there's enough space for the cell to be placed on. in case you haven't took a look in the code yet, there's now a list of controlls in the top of this readme file, and I'll (hopefully remember to) update it as I add new controlls.
 
----entry 19 December 2021---
+---*entry 19 December 2021*---
 
-13:05
+*13:05*
 always liked the way that logic worked in computers, thought it would be great to make a logic circuit sim ... riddled with bugs for now ... but ill work on it
 
-17:34
+*17:34*
 as of right now, the way of checking if a data cell is on or off is that if a data cell or an input data cell prior to the current data cell is on, then current cell becomes on, and its done with a bunch of loops and nested loops which is not the best way of going for it, and i encountered a f*** ton of bugs with it wrong cells turning on. i probably need to make a sprite system instead of nested loops checking each empty cell on the grid in each iteration ...
