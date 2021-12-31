@@ -27,7 +27,7 @@ public class CircuitSimPanel extends JPanel implements ActionListener {
 	final static int UNITS_ON_Y_AXIS = PANEL_HEIGHT / UNIT_SIZE;
 	int selectedTool = 0;
 	boolean visualOnlyLine = false;
-	String[] tools = {"data input cell" , "data cell" , "output cell" , "wire", "wire remover", "wires deleted", "everything deleted"};
+	String[] tools = {"data input cell" , "data cell" , "output cell" , "wire", "each wire remover", "wires deleted", "everything deleted"};
 	ArrayList<CellPosition> cellPositions = new ArrayList<CellPosition>();
 	ArrayList<Wire> wires = new ArrayList<Wire>();
 	Point visualOnlyLineFirstPoint;
