@@ -4,6 +4,7 @@
 HotKeys that you can use in this app:
 
 keyboard------------------------------
+
 select data input cell :          num1
 select data cell :                num2
 select data output cell :         num3
@@ -13,10 +14,12 @@ remove all wires :                num6
 remove all cells :                num7
 
 mouse---------------------------------
+
 placing/turning on cells/wires :  Lmb
 removing cells/wires :            Rmb
 
 *notes*-------------------------------
+
 -you can't place multiple cells on each other.
 
 -left clicking on a data input cell while the selected tool is data input cell, turns that data input cell on/off
