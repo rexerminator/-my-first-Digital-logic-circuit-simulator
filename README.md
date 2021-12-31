@@ -18,7 +18,7 @@ select remove each wire tool :    num5
 
 remove all wires :                num6
 
-remove all cells :                num7
+remove everything :               num7
 
 *mouse*---------------------------------
 
