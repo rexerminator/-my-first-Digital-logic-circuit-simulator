@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 import util.CellPosition;
 import util.Wire;
 
-public class CircuitSimPanelV2 extends JPanel implements ActionListener {
+public class CircuitSimPanel extends JPanel implements ActionListener {
 	//serialVersionUID =============================================================================
 	private static final long serialVersionUID = 1L;
 	//global variables and objects =================================================================
@@ -34,7 +34,7 @@ public class CircuitSimPanelV2 extends JPanel implements ActionListener {
 	Point visualOnlyLineSecondPoint;
 	JLabel selectedToolLabel;
 	//constructor ==================================================================================
-	public CircuitSimPanelV2() {
+	public CircuitSimPanel() {
 		CircuitSimMouseAdapter mouseAdapter = new CircuitSimMouseAdapter();
 		selectedToolLabel = new JLabel(tools[selectedTool]);
 		selectedToolLabel.setBounds(PANEL_WIDTH - PANEL_WIDTH / 5, PANEL_HEIGHT - 50, PANEL_WIDTH / 5, 50);
@@ -116,8 +116,6 @@ public class CircuitSimPanelV2 extends JPanel implements ActionListener {
 		}
 	}
 	private void checkWiresAndCells() {
-		/*#TODO what i have in mind for this piece, is adding turned on or off state to the Wire class as well.
-		  		might work out better ...*/
 		boolean loopBreaker = true;
 		while (loopBreaker) {
 			loopBreaker = false;
@@ -197,22 +195,6 @@ public class CircuitSimPanelV2 extends JPanel implements ActionListener {
 				}
 			}
 		}
-		/*loopBreaker = true;
-		while (loopBreaker) {
-			loopBreaker = false;
-			for (Wire w : wires) {
-				if (cellPositions.get(w.getFirstCompIndex()).isOn() && !cellPositions.get(w.getSecondCompIndex()).isOn()) {
-					cellPositions.get(w.getSecondCompIndex()).turnOn();
-					loopBreaker = true;
-				}
-				else if (!cellPositions.get(w.getFirstCompIndex()).isOn() && cellPositions.get(w.getSecondCompIndex()).isOn()) {
-					cellPositions.get(w.getSecondCompIndex()).turnOff();
-					loopBreaker = true;
-				}
-				else {
-				}
-			}
-		}*/
 	}
 	public void checkLeftClickedCell(int x, int y) {
 		boolean blankCheck = true;
