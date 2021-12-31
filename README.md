@@ -46,12 +46,12 @@ removing cells/wires :            Rmb
 
 ---*entry 31 December 2021*---
 
-*21:03*
+*21:03*: 
 alright ... I've changed pretty much every crucial thing, and now the code is a little bit more OOP like. there's still some bugs and crashes happening here and there, and you can still make a loop of cells wired to each other and they will stay turned on, but it's much better than what it was before. oh and also it's not grid based anymore. you can now put cells anywhere on the window as long as there's enough space for the cell to be placed on. in case you haven't took a look in the code yet, there's now a list of controlls in the top of this readme file, and I'll (hopefully remember to) update it as I add new controlls.
 
 ---*entry 19 December 2021*---
 
-*13:05*
+*13:05*: 
 always liked the way that logic worked in computers, thought it would be great to make a logic circuit sim ... riddled with bugs for now ... but ill work on it
 
 *17:34*
