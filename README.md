@@ -1,4 +1,6 @@
-# -my-first-Digital-logic-circuit-simulator
+# Digital-logic-circuit-simulator
+
+#NOT-COMPLETE-YET
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 HotKeys that you can use in this app:
